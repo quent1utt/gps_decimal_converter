@@ -1,0 +1,154 @@
+@font-face {
+    font-family:"Lobster";
+    src: url("Lobster-Regular.ttf")
+}
+
+
+body{
+    background-color: #d6d6d6;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+#header{
+    color: black;
+    background-color: #BEBEBE;
+    font-family: Lobster;
+    text-align: center;
+    
+}
+
+#header h1 {
+    padding-top: 13px;
+    font-size: 3vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header h3 {
+   padding-bottom: 14px;
+   font-size: 2vw; 
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+#map{
+    height: 60vh;
+    width: 100%; 
+    border-radius: 0% 0% 2% 2%;
+}
+
+
+#decimale {
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    background-color: #d6d6d6;
+}
+
+#decimale h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.7vw;
+}
+
+#decimale #latitudedecimale {
+    margin-top: 0.2%;
+    margin-bottom: 2%;
+    height: 10%;
+}
+
+#decimale #latitudedecimale label {
+   margin-right: 1.6%;
+
+}
+    
+#decimale #longitudedecimale {
+    margin-top: 0.2%;
+    margin-bottom: 3%;
+}
+
+#decimale input {
+ width: 20%;
+}
+
+
+#sexa {
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    background-color: #d6d6d6;
+}
+
+#sexa h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.7vw;
+}
+
+#sexa #latitudesexagecimale {
+    margin-top: 0.2%;
+    margin-bottom: 2%;
+}
+
+#sexa #latitudesexagecimale label {
+    margin-right: 1.7%;
+}
+
+#sexa #longitudesexagecimale {
+    margin-top: 0.2%;
+    margin-bottom: 3%;
+}
+
+
+#sexa input {
+ width: 28%;   
+}
+
+input {
+    border-radius: 3px;
+    background-color: #fff;
+    border: 0px;
+    font-size: 1.1vw;
+
+}
+
+label {
+    font-size: 1.3vw;
+}
+
+#footer {
+    margin: 0%;
+    padding: 0%;
+    background-color: #373736;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: Lobster;
+    color: #BEBEBE;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 1.3%;
+    padding-top: 1.3%;  
+}
+
+#footer p{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+::selection{
+        background:#373736;
+        color:#d6d6d6;
+}

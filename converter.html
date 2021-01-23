@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <link href="style.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)"/>
+      <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)"/>
+  </head>
+    
+  <body>
+     <script type="text/javascript" src="script.js"> </script>
+         
+    <div id="header"> 
+        
+            <h1> TS1 Converter </h1>
+            
+            <h3> Transformez vos coordonnées GPS en coordonnées sexagécimales </h3>
+        
+        </div>
+      
+
+    <div id="map">  </div>
+      
+      
+<div id="coordonnees">
+      
+    <div id="decimale">
+    <h2> Coordonnées Décimales </h2>
+    
+    <div id="latitudedecimale">
+       <label for="latitude">Latitude</label>   
+       <input type="number" id="latitude" step="0.0001" min="-85" max="85"  onkeyup="conversion1(),initMap()" value="47.0035893211" onchange="conversion1(),initMap()" onclick="select()" onfocus="select()"> 
+    </div>
+    <div id="longitudedecimale">
+       <label for="longitude">Longitude</label>    
+       <input type="number" id="longitude" step="0.0001" min="-179" max="179" onkeyup="conversion2(),initMap()" value="2.43896484375" onchange="conversion2(),initMap()" onclick="select()" onfocus="select">
+    </div>    
+   </div> 
+    
+   <div id="sexa">
+   <h2> Coordonnées GPS Sexagécimales </h2>
+    
+    <div id="latitudesexagecimale">
+     <label for="latitude">Latitude </label>
+       <input type="text" id="latitudeGPS" disabled></div>
+    <div id="longitudesexagecimale">
+     <label for="longitude">Longitude</label> 
+       <input type="text" id="longitudeGPS" disabled></div>
+        
+           
+   </div>   
+    
+</div> 
+      
+      
+<div id="footer">
+    
+  <p>Copyright © 2018 - Designed By Quentin Letellier &amp; Timothé Lokietek</p>
+    <p>in Hauts-de-France</p>
+</div>
+      
+       
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC22HqSwXB7WvAqzNS-kGrWL9kFEi9x0qc&callback=initMap">
+</script>
+        
+      
+  </body>
+    
+    
+</html>

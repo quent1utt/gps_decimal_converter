@@ -1,0 +1,109 @@
+@font-face {
+    font-family:"Lobster";
+    src: url("Lobster-Regular.ttf")
+}
+
+
+body{
+    background-color: #d6d6d6;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.clearfix{
+    overflow: auto;
+    zoom:1;
+}
+
+body #header{
+    color: black;
+    background-color: #BEBEBE;
+    font-family: Lobster;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 10vw;
+}
+
+#map{
+    height: 70vh;
+    width: 100%;
+    border-radius: 0% 0% 2% 2%;
+}
+
+#decimale{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#decimale input {
+ width: 45%;
+}
+
+#decimale #latitudedecimale label {
+   margin-right: 5%;
+
+}
+
+#decimale #latitudedecimale {
+    margin-bottom: 3%;
+}
+
+
+#sexa{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#sexa input {
+ width: 50%;   
+}
+
+#sexa #latitudesexagecimale label {
+    margin-right: 4.2%;
+}
+
+#sexa #latitudesexagecimale {
+    margin-bottom: 3%;
+}
+
+
+h2{
+    font-size: 7vw;
+}
+
+label{
+    font-size: 6vw;
+}
+
+input{
+    height: 6vw;
+    font-size: 5vw;
+}
+
+#footer{
+    margin-top: 3%;
+    padding: 0%;
+    font-family: Lobster;
+    font-size: 3vw;
+    text-align: center;
+    background-color: #373736;
+    color: #BEBEBE;
+    float: left;
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 1.3%;
+    padding-top: 1.3%;  
+}
+
+::selection{
+        background:#373736;
+        color:#d6d6d6;
+}
